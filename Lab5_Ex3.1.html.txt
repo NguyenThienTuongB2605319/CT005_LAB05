@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab5_Ex3.1 - Infographic và Video YouTube</title>
+ 
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f6f9;
+margin: 0;
+padding: 20px;
+text-align: center;
+color: #333;
+}
+ 
+.container {
+max-width: 1000px;
+margin: auto;
+}
+ 
+h1 {
+color: #0078D7;
+margin-bottom: 10px;
+}
+ 
+.description {
+font-size: 18px;
+color: #666;
+margin-bottom: 30px;
+}
+ 
+.infographic {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+margin-bottom: 40px;
+}
+ 
+.card {
+background: #fff;
+width: 250px;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+ 
+.card h2 {
+color: #0078D7;
+font-size: 36px;
+margin: 0;
+}
+ 
+.card p {
+margin-top: 10px;
+color: #555;
+}
+ 
+.video-container {
+margin-top: 20px;
+}
+ 
+iframe {
+width: 100%;
+max-width: 800px;
+height: 450px;
+border: none;
+border-radius: 12px;
+}
+ 
+.video-link {
+margin-top: 15px;
+}
+ 
+.video-link a {
+color: #0078D7;
+text-decoration: none;
+font-weight: bold;
+}
+ 
+.video-link a:hover {
+text-decoration: underline;
+}
+ 
+footer {
+margin-top: 50px;
+padding: 15px;
+color: #777;
+font-size: 14px;
+border-top: 1px solid #ddd;
+}
+</style>
+</head>
+<body>
+ 
+<div class="container">
+ 
+<h1>📊 Infographic Công Nghệ 2025</h1>
+ 
+<p class="description">
+Trang web minh họa việc hiển thị infographic kết hợp video YouTube
+bằng HTML và CSS.
+</p>
+ 
+<div class="infographic">
+<div class="card">
+<h2>85%</h2>
+<p>Người dùng sử dụng AI hằng ngày</p>
+</div>
+ 
+<div class="card">
+<h2>70%</h2>
+<p>Doanh nghiệp áp dụng chuyển đổi số</p>
+</div>
+ 
+<div class="card">
+<h2>50M+</h2>
+<p>Người dùng dịch vụ đám mây</p>
+</div>
+</div>
+ 
+<div class="video-container">
+<h2>🎥 Video YouTube</h2>
+ 
+</iframe>
+ 
+<div class="video-link">
+<p>
+Xem trên YouTube:
+https://youtu.be/4EFLmfVu6Sw
+</a>
+</p>
+</div>
+</div>
+ 
+<footer>
+© 2025 Infographic Công Nghệ. Mọi quyền được bảo lưu.<br>
+Nội dung được sử dụng cho mục đích học tập và minh họa.
+</footer>
+ 
+</div>
+ 
+</body>
+</html>
